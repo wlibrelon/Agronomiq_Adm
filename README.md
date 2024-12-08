@@ -12,14 +12,14 @@ Faça um script que baixa o dataset de municípios do estado de Minas Gerais (us
 **Atividade-3.py**
  Utilize os dois arquivos de focos de desmatamento como base (dados/desmatamento_ago22.gpkg e dados/desmatamento_set_22.gpkg), junte-os em um único dataset, transforme-o em um GeoJSON na projeção EPSG:31983 e salve-o em dados/focos-desmatamento-mg.geojson.
 
-**Atividade 4:** desenvolvida no Jutpyter notebook com quatro sub-atividades com o arquivo 02_analise.ipynb
+**Atividade-4:** desenvolvida no Jutpyter notebook com quatro sub-atividades com o arquivo 02_analise.ipynb
 
 - Qual a área total desmatada em hectares no estado de Minas Gerais em cada um dos meses de agosto e setembro de 2022?
 - Qual a área total desmatada em km² no estado de Minas Gerais em todo o período fornecido (ago/set de 2022) por bioma?
 - Qual a área total desmatada em km² no estado de Minas Gerais em cada um dos meses de agosto e setembro de 2022, por município?
 - No notebook 02_analise.ipynb faça uma análise de correlação entre as variáveis de população e PIB dos municípios de Minas Gerais e a área desmatada em hectares. Apresente os resultados da forma que achar mais adequada.
 
-**Atividade 5:** Objetivo de apresentar alguns resultados que possam contribuir com a gestão pública.
+**Atividade-5:** Objetivo de apresentar alguns resultados que possam contribuir com a gestão pública.
 Foram gerados 5 resultados apresentados juntamente com os scripts no projeto "03_visualizacao.ipynb" também no Jupyter notebook
 
 - Área desmatada por municípios
