@@ -3,7 +3,6 @@ import requests
 import pandas as pd
 
 ###### População
-
 url = "https://servicodados.ibge.gov.br/api/v3/agregados/6579/periodos/2024/variaveis/9324?localidades=N1[all]|N6[N3[31]]"
 
 response = requests.get(url)
@@ -34,7 +33,6 @@ df_pop.to_csv(output_file, index=False, encoding='utf-8')
 print(f"Dados salvos em {output_file}")
 
 ###### PIB
-
 url = "https://servicodados.ibge.gov.br/api/v3/agregados/21/periodos/2012/variaveis/37?localidades=N6[N3[31]]"
 
 # Fazer a requisição e obter os dados JSON

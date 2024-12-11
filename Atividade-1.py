@@ -25,3 +25,4 @@ gdf['area_km2'] = gdf.geometry.area / 10**6
 gdf.to_file(path_output + file_output, driver='GeoJSON')
 
 print(f"Arquivo salvo em {path_output}{file_output}")
+#
